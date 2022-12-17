@@ -1,0 +1,3 @@
+${brokerName},${stockID},${warrantyType},${numOfDays},${inPercentage},${outPercentage},[Tags]
+全部,2498,認購,90日,價內5%,價外5%,P0
+元大,2330,認售,60日,價內5%,價外5%,P1
