@@ -2,11 +2,11 @@
 resource            ../variables/variables.robot
 resource            ../keywords/searchWarrantyKeyword.robot
 Library             Selenium2Library
-Library             DataDriver    ../testdata/searchWarranty.csv    encoding=utf_8    dialect=excel    include=P1
+Library             DataDriver    ../testdata/searchWarranty.csv    encoding=utf_8    dialect=excel
 
 
 
-suite setup     Open "safari" browser
+suite setup     Open "chrome" browser
 suite teardown  Close Browser
 Test Template   search stock warranty
 

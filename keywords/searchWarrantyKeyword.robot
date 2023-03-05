@@ -7,7 +7,7 @@ resource            ../variables/variables.robot
 Open "${browserName}" browser
     Open Browser    ${url}    ${browserName}
     Maximize Browser Window
-    Set Selenium Speed   0.2 seconds
+    Set Selenium Speed   0.3 seconds
 
 select broker name
     [Arguments]     ${brokerName}
